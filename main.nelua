@@ -1,0 +1,4 @@
+require 'config'
+local function add(a: float32, b: float32): float32 <cexport, codename 'main_add'>
+  return a + b
+end
